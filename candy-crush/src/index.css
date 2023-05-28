@@ -1,0 +1,23 @@
+.app {
+  display: flex;
+  padding: 30px;
+  background-color: rgb(203, 238, 226);
+}
+
+.game {
+  width: 560px;
+  height: 560px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: aqua;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 8px #888888;
+  min-width: 560px;
+  min-height: 560px;
+}
+
+.game img{
+  width: 70px;
+  height: 70px;
+  box-shadow: 0px 0px 8px #888888;
+}
