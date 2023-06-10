@@ -25,6 +25,7 @@ function App() {
     return () => clearInterval(intVal);
   });
 
+//pipes moving
   useEffect(() => {
     let objval;
     if (isStart && objPos >= -OBJ_WIDTH) {
