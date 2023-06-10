@@ -14,6 +14,7 @@ function App() {
   const [objHeight, setObjHeight] = useState(0);
   const [objPos, setObjPos] = useState(WALL_WIDTH);
   const [score, setScore] = useState(0);
+//Bird's falling
   useEffect(() => {
     let intVal;
     if (isStart && birdpos < WALL_HEIGHT - BIRD_HEIGHT) {
