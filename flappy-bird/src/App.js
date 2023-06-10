@@ -43,6 +43,7 @@ function App() {
     }
   }, [isStart, objPos]);
 
+//if bird bumped into a pipe
   useEffect(() => {
     let topObj = birdpos >= 0 && birdpos < objHeight;
     let bottomObj =
