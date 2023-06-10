@@ -61,6 +61,8 @@ function App() {
       setScore(0);
     }
   }, [isStart, birdpos, objHeight, objPos]);
+  
+//handle click and bird up
   const handler = () => {
     if (!isStart) setIsStart(true);
     else if (birdpos < BIRD_HEIGHT) setBirspos(0);
